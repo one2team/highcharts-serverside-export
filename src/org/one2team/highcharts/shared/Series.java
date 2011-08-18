@@ -1,0 +1,50 @@
+//File              $Source: /var/lib/cvs2/highcharts-server/src/org/one2team/highcharts/shared/Series.java,v $
+//Last modified by  $Author: obt $
+//Revision Date     $Revision: 1.1 $
+//Tag Name          $Name:  $
+//
+//Copyright (c) 2000-2010 One2team All Rights Reserved.
+
+package org.one2team.highcharts.shared;
+
+import org.one2team.highcharts.shared.PlotOptions.Series.States;
+
+import com.google.gwt.shared.Array;
+
+public interface Series {
+  
+  Array<Point> getData ();
+  
+  Series setData (Array<Point> data);
+
+  String getName ();
+
+  Series setName (String name);
+
+  String getColor ();
+
+  Series setColor (String color);
+
+  String getType ();
+  
+  Series setType (String type);
+
+  String getCenterX ();
+  
+  String getCenterY ();
+  
+  States getStates();
+  
+  Series setStates (States states);
+  
+  <T> T getUserObject ();
+
+  void setUserObject (Object userObject);
+
+  String getSize ();
+
+  Series setSize (String size);
+
+  Series setCenter (String centerX, String centerY);
+  
+}
