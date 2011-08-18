@@ -1,0 +1,9 @@
+com.google.gwt.shared
+examples
+org.one2team.highcharts.server
+org.one2team.highcharts.server.dynamic
+org.one2team.highcharts.server.export
+org.one2team.highcharts.server.export.util
+org.one2team.highcharts.shared
+org.one2team.highcharts.shared.dynamic
+org.one2team.utils
