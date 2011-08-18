@@ -1,10 +1,3 @@
-//File              $Source: /var/lib/cvs2/o3-core/src/com/google/gwt/shared/Array.java,v $
-//Last modified by  $Author: obt $
-//Revision Date     $Revision: 1.2 $
-//Tag Name          $Name:  $
-//
-//Copyright (c) 2000 One2team All Rights Reserved.
-
 package com.google.gwt.shared;
 
 public interface Array<E> {
