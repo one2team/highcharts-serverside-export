@@ -6,6 +6,8 @@ import org.one2team.highcharts.server.export.ExportType;
 import org.one2team.highcharts.server.export.HighchartsExporter;
 import org.one2team.highcharts.shared.ChartOptions;
 
+import examples.SamplesFactory;
+
 public class SimpleExport {
 
 	public static void main (String[] args) {

@@ -10,8 +10,6 @@ import org.one2team.highcharts.server.export.util.SVGRendererInternal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.one2team.util.StreamUtil6;
-
 class SVGRenderer extends PojoRenderer {
 	
 	public SVGRenderer () {
@@ -34,7 +32,7 @@ class SVGRenderer extends PojoRenderer {
 			if (svg == null)
 				throw (new RuntimeException ("cannot generate svg"));
 			byteStream = new ByteArrayInputStream (svg.getBytes ());
-			StreamUtil6.copy (getOutputStream(), byteStream);
+			IOUtils.copy (byteStream, getOutputStream());
 		} catch (IOException e) {
 			throw (new RuntimeException (e));
 		} finally {
