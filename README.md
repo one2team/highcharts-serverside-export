@@ -66,7 +66,13 @@ You can choose the export directory by changing the java line :
   * windows :  File exportDirectory = new File ("D:\\");
   * linux : File exportDirectory = new File ("/home/myself/export-dir");
   * ...
- 
+  
+* SimpleExample shows several cases of charts export :
+  * 'java' chartOptions from column-basic to png,
+  * 'java' chartOptions from pie-chart to png,
+  * 'java' chartOptions from time-data-with-irregular-intervals to jpeg,
+  * 'json' chartOptions from column-basic to png.
+  
 SamplesFactory contains three methods that generate equivalent of Highcharts demo gallery examples :
 * SamplesFactory.createColumnBasic : [Basic column](http://highcharts.com/demo/column-basic)
 * SamplesFactory.createPieChart : [Pie chart](http://highcharts.com/demo/pie-basic)
