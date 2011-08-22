@@ -5,12 +5,12 @@ The primary goal of the Highcharts Serverside Export framework (HSE) is to provi
 
 Solution features :
 
-* Java API mapping the Highcharts model (keep compatible with Highcharts hierarchy and properties),
+* Java API corresponding to [Highcharts](http://www.highcharts.com) model (kept compatible with Highcharts model hierarchy and properties),
 * Rhino-Apache Batik based renderer : java ChartOptions ==> Rhino ==> Highcharts ==> SVG ==> image (png, JPEG, etc...),
 
 Usage
 -----
-You can use HES to create in java an image file of a Highcharts chart.
+You can use the framework to generate in java an image file out of a Highcharts chart.
 
 Getting Help
 ------------
