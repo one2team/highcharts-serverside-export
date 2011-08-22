@@ -3,10 +3,14 @@ Highcharts Serverside Export
 
 The primary goal of the Highcharts Serverside Export framework (HSE) is to provide a java API for Highcharts including image generation capabilities.
 
-Solution features
-* Java API mapping the Highcharts model,
+Solution features :
+
+* Java API mapping the Highcharts model (keep compatible with Highcharts hierarchy and properties),
 * Rhino-Apache Batik based renderer : java ChartOptions ==> Rhino ==> Highcharts ==> SVG ==> image (png, JPEG, etc...),
 
+Usage
+-----
+You can use HES to create in java an image file of a Highcharts chart.
 
 Getting Help
 ------------
@@ -80,3 +84,13 @@ All the dependencies files are provided in ./lib/
    * open the project in your favorite IDE,
    * declare all the ./lib jars as dependencies in your project,
    * run SimpleExport
+   
+   
+Copyright and License
+---------------------
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
