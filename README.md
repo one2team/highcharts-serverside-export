@@ -12,6 +12,10 @@ Usage
 -----
 You can use the framework to generate in java an image file out of a Highcharts chart.
 
+* With Highcharts, you would generate a javascript chartOptions, which is shown in browser
+* Here, you generate a java chartOptions (same hierarchy, same properties), which is converted in image stream (using Rhino, Highcharts and Batik) 
+
+
 Getting Help
 ------------
 To start to use it, you need to know Highcharts API.

@@ -7,17 +7,18 @@ import org.apache.commons.io.IOUtils;
 import org.one2team.highcharts.server.export.Renderer.PojoRenderer;
 import org.one2team.highcharts.server.export.util.SVGHighchartsHelper;
 import org.one2team.highcharts.server.export.util.SVGRendererInternal;
+import org.one2team.highcharts.shared.ChartOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class SVGRenderer extends PojoRenderer {
+class SVGRenderer extends PojoRenderer<ChartOptions> {
 	
 	public SVGRenderer () {
 		internal = new SVGRendererInternal ();
 	}
 
 	@Override
-	public void render () { 
+	public void render () {
 		String generalOptions = SVGHighchartsHelper.jsonifyDefaultGeneralOptions ();
 		if (LOGGER.isDebugEnabled ()) LOGGER.debug ("generalOptions : " +generalOptions);
 		

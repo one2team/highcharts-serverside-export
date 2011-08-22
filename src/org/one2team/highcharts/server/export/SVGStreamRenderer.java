@@ -12,7 +12,7 @@ import org.apache.commons.io.IOUtils;
 import org.one2team.highcharts.server.export.Renderer.PojoRenderer;
 import org.one2team.highcharts.shared.ChartOptions;
 
-class SVGStreamRenderer extends PojoRenderer {
+class SVGStreamRenderer extends PojoRenderer<ChartOptions> {
 
 	@Override
 	public void render () {
@@ -39,13 +39,13 @@ class SVGStreamRenderer extends PojoRenderer {
 	}
 
 	@Override
-	public Renderer setGlobalOptions (ChartOptions options) {
+	public Renderer<ChartOptions> setGlobalOptions (ChartOptions options) {
 		wrapped.setGlobalOptions (options);
 		return this;
 	}
 
 	@Override
-	public Renderer setChartOptions (ChartOptions options) {
+	public Renderer<ChartOptions> setChartOptions (ChartOptions options) {
 		wrapped.setChartOptions (options);
 		return this;
 	}
@@ -54,12 +54,12 @@ class SVGStreamRenderer extends PojoRenderer {
 		return transcoder;
 	}
 	
-	public SVGStreamRenderer (Renderer wrapped, Transcoder transcoder) {
+	public SVGStreamRenderer (Renderer<ChartOptions> wrapped, Transcoder transcoder) {
 		this.wrapped = wrapped;
 		this.transcoder = transcoder;
 	}
 
-	private final Renderer wrapped;
+	private final Renderer<ChartOptions> wrapped;
 
 	private final Transcoder transcoder;
 }
