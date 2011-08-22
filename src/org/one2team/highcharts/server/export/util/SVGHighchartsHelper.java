@@ -73,7 +73,7 @@ public class SVGHighchartsHelper {
 
   static Main rhinoDebugger;
 
-	private static final SVGRendererInternal SVG_RENDERER_INTERNAL = new SVGRendererInternal ();
+	private static final SVGRendererInternal<ChartOptions> SVG_RENDERER_INTERNAL = new SVGRendererInternalChartOption ();
 
   static final Logger LOGGER = LoggerFactory.getLogger (SVGHighchartsHelper.class);
 

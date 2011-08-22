@@ -6,19 +6,19 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 import org.apache.commons.io.IOUtils;
-import org.one2team.highcharts.shared.ChartOptions;
+import org.one2team.highcharts.server.export.util.SVGRendererInternal;
 
-public class HighchartsExporter {
+public class HighchartsExporter<I> {
 
-	public HighchartsExporter(ExportType type) {
+	public HighchartsExporter(ExportType type, SVGRendererInternal<I> internalRenderer) {
 		this.type = type;
 		this.renderer = 
-			new SVGStreamRenderer (new SVGRenderer (),
+			new SVGStreamRenderer<I> (new SVGRenderer<I> (internalRenderer),
 				                     type.getTranscoder ());
 	}
 
-	public void export (ChartOptions chartOptions,
-			                ChartOptions globalOptions,
+	public void export (I chartOptions,
+			                I globalOptions,
 			                File file) {
 		
 		OutputStream fos = null;
@@ -34,8 +34,9 @@ public class HighchartsExporter {
 		}
 	}
 
-	private OutputStream render (ChartOptions chartOptions,
-			ChartOptions globalOptions, File file) throws FileNotFoundException {
+	private OutputStream render (I chartOptions,
+			                         I globalOptions,
+                               File file) throws FileNotFoundException {
 		FileOutputStream fos;
 		renderer.setChartOptions (chartOptions)
 				    .setGlobalOptions (globalOptions)
@@ -44,7 +45,7 @@ public class HighchartsExporter {
 		return fos;
 	}
 
-	public SVGStreamRenderer getRenderer () {
+	public SVGStreamRenderer<I> getRenderer () {
 		return renderer;
 	}
 
@@ -52,7 +53,7 @@ public class HighchartsExporter {
 		return type;
 	}
 
-	private final SVGStreamRenderer renderer;
+	private final SVGStreamRenderer<I> renderer;
 
 	private final ExportType type;
 }

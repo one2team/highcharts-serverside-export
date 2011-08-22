@@ -31,7 +31,7 @@ public class SimpleExport {
 		// Inputs :
 		//    1. chartOptions : the java ChartOptions to be exported,
 		//    2. exportFile  : file to export to.
-		HighchartsExporter pngExporter = ExportType.png.createExporter ();
+		HighchartsExporter<ChartOptions> pngExporter = ExportType.png.createExporter ();
 		pngExporter.export (chartOptions1, null, new File (exportDirectory, "column-basic.png"));
 		
 		// ====================================================================
@@ -44,9 +44,18 @@ public class SimpleExport {
 		// An example exporting to JPEG
 		// ---------------------------------------
 		ChartOptions chartOptions3 = highchartsSamples.createTimeDataWithIrregularIntervals ();
-		final HighchartsExporter jpegExporter = ExportType.jpeg.createExporter ();
+		final HighchartsExporter<ChartOptions> jpegExporter = ExportType.jpeg.createExporter ();
 		jpegExporter.export (chartOptions3, null, new File (exportDirectory, "time-data-with-irregular-intervals.jpeg"));
 		
+		// ====================================================================
+		// Chart export with a json input (instead of a java one)
+		// ----------------
+		// Inputs :
+		//    1. chartOptions : the json ChartOptions to be exported,
+		//    2. exportFile  : file to export to.
+		String chartOption = highchartsSamples.createJsonColumnBasic ();
+		HighchartsExporter<String> pngFromJsonExporter = ExportType.png.createJsonExporter ();
+		pngFromJsonExporter.export (chartOption, null, new File (exportDirectory, "column-basic-from-json.png"));
 	}
 
 

@@ -12,14 +12,14 @@ import org.mozilla.javascript.ContextAction;
 import org.mozilla.javascript.ContextFactory;
 import org.mozilla.javascript.Script;
 import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
 import org.mozilla.javascript.tools.debugger.Main;
 import org.mozilla.javascript.tools.debugger.ScopeProvider;
-import org.one2team.highcharts.shared.ChartOptions;
 
-public class SVGRendererInternal {
-
-	  public String getSVG (final String generalOptions, final ChartOptions chartOptions) throws IOException {
+public abstract class SVGRendererInternal<I> {
+	
+		protected abstract Object callJavascript (final String generalOptions, final I chartOptions);
+	  
+		public String getSVG (final String generalOptions, final I chartOptions) throws IOException {
 	    SVGHighchartsHelper.LOGGER.debug ("get svg for highcharts export functions with rhino");
 	    Object call;
 	    if (SVGHighchartsHelper.DEBUG) {
@@ -73,15 +73,7 @@ public class SVGRendererInternal {
 					}
 					
 					Object execute () {
-//						return ScriptableObject.callMethod (null, SCRIPTABLE, "renderSVG",  new String [] {'(' + chartOptions + ')', '(' + generalOptions + ')'});
-//						StringBuilder sb = new StringBuilder ();
-//						traverse ((Scriptable)realCO, sb);
-//						System.out.println("co "+sb.toString ());
-
-//						String turlututu = "({\"chart\":{\"width\":800,\"height\":600,\"marginLeft\":70,\"marginTop\":80},\"plotOptions\":{\"area\":{\"borderWidth\":0},\"areaspline\":{\"borderWidth\":0},\"line\":{\"borderWidth\":0},\"pie\":{\"dataLabels\":{\"color\":\"#000000\",\"enabled\":true,\"align\":\"center\",\"rotation\":0.0},\"allowPointSelect\":true,\"borderWidth\":0},\"series\":{\"borderWidth\":0},\"spline\":{\"borderWidth\":0},\"column\":{\"borderWidth\":0},\"bar\":{\"borderWidth\":0}},\"series\":[{\"data\":[{\"y\":45.0,\"name\":\"Firefox\"},{\"y\":26.8,\"name\":\"IE\"},{\"y\":12.8,\"selected\":true,\"sliced\":true,\"name\":\"Chrome\"},{\"y\":8.5,\"name\":\"Safari\"},{\"y\":6.2,\"name\":\"Opera\"},{\"y\":0.7,\"name\":\"Others\"}],\"name\":\"Browser share\",\"type\":\"pie\"}],\"title\":{\"text\":\"Browser market shares at a specific website, 2010\"}})";
-						String turlututu = "";
-						return ScriptableObject.callMethod (null, SCRIPTABLE, "renderSVG",  new Object [] {'(' + turlututu + ')', '(' + generalOptions + ')', chartOptions});
-//						return ScriptableObject.callMethod (null, SCRIPTABLE, "renderSVG",  new Object [] {'(' + generalOptions + ')', realCO});
+						return callJavascript (generalOptions, chartOptions);
 					}
 
 					void createScriptable () {
@@ -195,7 +187,7 @@ public class SVGRendererInternal {
 		private static ContextFactory getContextFactory () {
 			return org.mozilla.javascript.tools.shell.Main.shellContextFactory;
 		}
-	  private Scriptable SCRIPTABLE;
+	  protected Scriptable SCRIPTABLE;
 		private List<Script> scripts;
 		
 	}

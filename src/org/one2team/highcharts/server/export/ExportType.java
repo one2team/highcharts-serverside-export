@@ -4,6 +4,9 @@ import org.apache.batik.transcoder.Transcoder;
 import org.apache.batik.transcoder.image.JPEGTranscoder;
 import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.apache.batik.transcoder.image.TIFFTranscoder;
+import org.one2team.highcharts.server.export.util.SVGRendererInternalChartOption;
+import org.one2team.highcharts.server.export.util.SVGRendererInternalJson;
+import org.one2team.highcharts.shared.ChartOptions;
 
 public enum ExportType {
 	png {
@@ -23,8 +26,12 @@ public enum ExportType {
 		}
 	};
 	
-	public HighchartsExporter createExporter () {
-		return new HighchartsExporter (this);
+	public HighchartsExporter<ChartOptions> createExporter () {
+		return new HighchartsExporter<ChartOptions> (this, new SVGRendererInternalChartOption ());
+	}
+	
+	public HighchartsExporter<String> createJsonExporter () {
+		return new HighchartsExporter<String> (this, new SVGRendererInternalJson ());
 	}
 	
 	protected abstract Transcoder getTranscoder ();

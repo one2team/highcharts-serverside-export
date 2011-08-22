@@ -7,14 +7,13 @@ import org.apache.commons.io.IOUtils;
 import org.one2team.highcharts.server.export.Renderer.PojoRenderer;
 import org.one2team.highcharts.server.export.util.SVGHighchartsHelper;
 import org.one2team.highcharts.server.export.util.SVGRendererInternal;
-import org.one2team.highcharts.shared.ChartOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class SVGRenderer extends PojoRenderer<ChartOptions> {
+class SVGRenderer<I> extends PojoRenderer<I> {
 	
-	public SVGRenderer () {
-		internal = new SVGRendererInternal ();
+	public SVGRenderer (SVGRendererInternal<I> internal) {
+		this.internal = internal;//new SVGRendererInternal ();
 	}
 
 	@Override
@@ -41,7 +40,7 @@ class SVGRenderer extends PojoRenderer<ChartOptions> {
 		}
 	}
 	
-	private final SVGRendererInternal internal;
+	private final SVGRendererInternal<I> internal;
 
   private static final Logger LOGGER = LoggerFactory.getLogger (SVGRenderer.class);
 
