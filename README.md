@@ -1,11 +1,11 @@
-Highcharts Serverside Export - Document
-=======================================
+Highcharts Serverside Export
+============================
 
 The primary goal of the [Highcharts Serverside Export] (HSE) framework is to provide a java API for Highcharts including image generation capabilities.
 
 Solution features :
-* a java API mapping the Highcharts model,
-* a Rhino-Apache Batik based renderer : java ChartOptions ==> Rhino ==> Highcharts ==> SVG ==> image (png, JPEG, etc...)
+* Java API mapping the Highcharts model,
+* Rhino-Apache Batik based renderer : java ChartOptions ==> Rhino ==> Highcharts ==> SVG ==> image (png, JPEG, etc...)
 
 Getting Help
 ------------
@@ -13,17 +13,17 @@ Getting Help
 To start to use it, you need to know Highcharts API.
 
 ## Highcharts
-See [Highcharts](http://www.highcharts.com/)
-See [Highcharts API Reference](http://www.highcharts.com/ref/)
+* See [Highcharts](http://www.highcharts.com/)
+* See [Highcharts API Reference](http://www.highcharts.com/ref/)
 
 ## Highcharts Serverside Export java doc
-See embeded java doc
+* See embeded java doc
 
 ## Rhino
-See [Rhino](http://www.mozilla.org/rhino/)
+* See [Rhino](http://www.mozilla.org/rhino/)
 
 ## Batik SVG Toolkit
-See [Apache Batik SVG Toolkit](http://xmlgraphics.apache.org/batik/)
+* See [Apache Batik SVG Toolkit](http://xmlgraphics.apache.org/batik/)
 
 Quick Start
 -----------
@@ -52,7 +52,7 @@ Quick Start
 		HighchartsExporter pngExporter = ExportType.png.createExporter ();
 		pngExporter.export (chartOptions1, null, new File (exportDirectory, "column-basic.png"));
 		...
- }
+  }
 
 * export directory
 You can choose the export directory by changing the java line :
