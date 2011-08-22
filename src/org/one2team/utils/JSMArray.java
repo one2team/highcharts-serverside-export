@@ -1,9 +1,3 @@
-//File              $Source: /var/lib/cvs2/highcharts-server/src/org/one2team/utils/JSMArray.java,v $
-//Last modified by  $Author: obt $
-//Revision Date     $Revision: 1.2 $
-//Tag Name          $Name:  $
-//
-//Copyright (c) 2000 One2team All Rights Reserved.
 package org.one2team.utils;
 
 import java.lang.reflect.InvocationTargetException;

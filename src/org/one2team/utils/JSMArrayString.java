@@ -1,12 +1,4 @@
-//File              $Source: /var/lib/cvs2/highcharts-server/src/org/one2team/utils/JSMArrayString.java,v $
-//Last modified by  $Author: obt $
-//Revision Date     $Revision: 1.2 $
-//Tag Name          $Name:  $
-//
-//Copyright (c) 2000-2010 One2team All Rights Reserved.
-
 package org.one2team.utils;
-
 import com.google.gwt.shared.ArrayString;
 
 @SuppressWarnings("serial")
