@@ -10,9 +10,9 @@ import org.one2team.highcharts.server.export.util.SVGRendererInternal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class SVGRenderer<I> extends PojoRenderer<I> {
+class SVGRenderer<T> extends PojoRenderer<T> {
 	
-	public SVGRenderer (SVGRendererInternal<I> internal) {
+	public SVGRenderer (SVGRendererInternal<T> internal) {
 		this.internal = internal;//new SVGRendererInternal ();
 	}
 
@@ -40,7 +40,7 @@ class SVGRenderer<I> extends PojoRenderer<I> {
 		}
 	}
 	
-	private final SVGRendererInternal<I> internal;
+	private final SVGRendererInternal<T> internal;
 
   private static final Logger LOGGER = LoggerFactory.getLogger (SVGRenderer.class);
 

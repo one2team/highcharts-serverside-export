@@ -15,11 +15,11 @@ import org.mozilla.javascript.Scriptable;
 import org.mozilla.javascript.tools.debugger.Main;
 import org.mozilla.javascript.tools.debugger.ScopeProvider;
 
-public abstract class SVGRendererInternal<I> {
+public abstract class SVGRendererInternal<T> {
 	
-		protected abstract Object callJavascript (final String generalOptions, final I chartOptions);
+		protected abstract Object callJavascript (final String generalOptions, final T chartOptions);
 	  
-		public String getSVG (final String generalOptions, final I chartOptions) throws IOException {
+		public String getSVG (final String generalOptions, final T chartOptions) throws IOException {
 	    SVGHighchartsHelper.LOGGER.debug ("get svg for highcharts export functions with rhino");
 	    Object call;
 	    if (SVGHighchartsHelper.DEBUG) {

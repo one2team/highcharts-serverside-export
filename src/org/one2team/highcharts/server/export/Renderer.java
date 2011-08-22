@@ -2,37 +2,37 @@ package org.one2team.highcharts.server.export;
 
 import java.io.OutputStream;
 
-public interface Renderer<I> {
+public interface Renderer<T> {
 
-	Renderer<I> setChartOptions (I options);
+	Renderer<T> setChartOptions (T options);
 
-	Renderer<I> setOutputStream (OutputStream outputStream);
+	Renderer<T> setOutputStream (OutputStream outputStream);
 
-	Renderer<I> setGlobalOptions (I options);
+	Renderer<T> setGlobalOptions (T options);
 
 	void render ();
 	
-	public static abstract class PojoRenderer<I> implements Renderer<I> {
+	public static abstract class PojoRenderer<T> implements Renderer<T> {
 
 		@Override
-		public Renderer<I> setChartOptions (I options) {
+		public Renderer<T> setChartOptions (T options) {
 			this.options = options;
 			return this;
 		}
 
 		@Override
-		public Renderer<I> setOutputStream (OutputStream output) {
+		public Renderer<T> setOutputStream (OutputStream output) {
 			this.output = output;
 			return this;
 		}
 
 		@Override
-		public Renderer<I> setGlobalOptions (I options) {
+		public Renderer<T> setGlobalOptions (T options) {
 			this.globalOptions = options;
 			return this;
 		}
 
-		protected I getChartOptions () {
+		protected T getChartOptions () {
 			return options;
 		}
 
@@ -40,11 +40,11 @@ public interface Renderer<I> {
 			return output;
 		}
 
-		protected I getGlobalOptions () {
+		protected T getGlobalOptions () {
 			return globalOptions;
 		}
 
-		private I options, globalOptions;
+		private T options, globalOptions;
 
 		private OutputStream output;
 

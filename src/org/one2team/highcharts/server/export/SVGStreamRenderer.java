@@ -11,7 +11,7 @@ import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.commons.io.IOUtils;
 import org.one2team.highcharts.server.export.Renderer.PojoRenderer;
 
-class SVGStreamRenderer<I> extends PojoRenderer<I> {
+class SVGStreamRenderer<T> extends PojoRenderer<T> {
 
 	@Override
 	public void render () {
@@ -38,13 +38,13 @@ class SVGStreamRenderer<I> extends PojoRenderer<I> {
 	}
 
 	@Override
-	public Renderer<I> setGlobalOptions (I options) {
+	public Renderer<T> setGlobalOptions (T options) {
 		wrapped.setGlobalOptions (options);
 		return this;
 	}
 
 	@Override
-	public Renderer<I> setChartOptions (I options) {
+	public Renderer<T> setChartOptions (T options) {
 		wrapped.setChartOptions (options);
 		return this;
 	}
@@ -53,12 +53,12 @@ class SVGStreamRenderer<I> extends PojoRenderer<I> {
 		return transcoder;
 	}
 	
-	public SVGStreamRenderer (Renderer<I> wrapped, Transcoder transcoder) {
+	public SVGStreamRenderer (Renderer<T> wrapped, Transcoder transcoder) {
 		this.wrapped = wrapped;
 		this.transcoder = transcoder;
 	}
 
-	private final Renderer<I> wrapped;
+	private final Renderer<T> wrapped;
 
 	private final Transcoder transcoder;
 }
