@@ -14,7 +14,6 @@ You can use the framework to generate in java an image file out of a Highcharts 
 
 Getting Help
 ------------
-
 To start to use it, you need to know Highcharts API.
 
 ## Highcharts
@@ -32,7 +31,6 @@ To start to use it, you need to know Highcharts API.
 
 Quick Start
 -----------
-
 ## A java sample : SimpleExport (test/examples/SimpleExport.java)
 
 	public static void main (String[] args) {
