@@ -1,1 +1,6 @@
-This is a README
+
+- based on a dedicated highcharts library
+
+todo list
+- be able to work on a "standard" highcharts library,
+- avoid to create the highcharts twice, 
