@@ -10,10 +10,11 @@ import javax.xml.bind.annotation.XmlTransient;
 
 import org.mozilla.javascript.Scriptable;
 import org.mozilla.javascript.Undefined;
+import org.one2team.highcharts.shared.Jsonify;
 
 
 @XmlAccessorType(XmlAccessType.NONE)
-public class JSMBaseObject /*extends ScriptableObject*/ implements Scriptable {
+public class JSMBaseObject implements Scriptable, Jsonify {
 
   public JSMBaseObject () {
     super ();
@@ -200,6 +201,11 @@ public class JSMBaseObject /*extends ScriptableObject*/ implements Scriptable {
 		return false;
 	}
 
+	@Override
+	public String toJson () {
+		return GsonHelper.toJson(this);
+	}
+
 	private Field getPropertyField (String property) {
 		final Class<? extends JSMBaseObject> class1 = getClass ();
 		
@@ -221,4 +227,5 @@ public class JSMBaseObject /*extends ScriptableObject*/ implements Scriptable {
 //		// System.out.println("setter<"+class1+";"+property+";"+setter);
 		return setter;
 	}
+
 }

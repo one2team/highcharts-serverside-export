@@ -7,8 +7,6 @@ import org.apache.commons.io.IOUtils;
 import org.one2team.highcharts.server.export.Renderer.PojoRenderer;
 import org.one2team.highcharts.server.export.util.SVGHighchartsHelper;
 import org.one2team.highcharts.server.export.util.SVGRendererInternal;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 class SVGRenderer<T> extends PojoRenderer<T> {
 	
@@ -19,12 +17,9 @@ class SVGRenderer<T> extends PojoRenderer<T> {
 	@Override
 	public void render () {
 		String generalOptions = SVGHighchartsHelper.jsonifyDefaultGeneralOptions ();
-		if (LOGGER.isDebugEnabled ()) LOGGER.debug ("generalOptions : " +generalOptions);
 		
 		if (getChartOptions () == null)
 			throw (new RuntimeException ("chartOptions must not be null"));
-		String chartOptions = "";//SVGHighchartsHelper.jsonify (getChartOptions ());
-		if (LOGGER.isDebugEnabled ()) LOGGER.debug ("chartOptions : " +chartOptions);
 		
 		ByteArrayInputStream byteStream = null;
 		try {
@@ -41,7 +36,5 @@ class SVGRenderer<T> extends PojoRenderer<T> {
 	}
 	
 	private final SVGRendererInternal<T> internal;
-
-  private static final Logger LOGGER = LoggerFactory.getLogger (SVGRenderer.class);
 
 }

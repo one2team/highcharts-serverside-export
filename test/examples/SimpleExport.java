@@ -5,8 +5,7 @@ import java.io.File;
 import org.one2team.highcharts.server.export.ExportType;
 import org.one2team.highcharts.server.export.HighchartsExporter;
 import org.one2team.highcharts.shared.ChartOptions;
-
-import examples.SamplesFactory;
+import org.one2team.highcharts.shared.Jsonify;
 
 public class SimpleExport {
 
@@ -34,15 +33,15 @@ public class SimpleExport {
 		HighchartsExporter<ChartOptions> pngExporter = ExportType.png.createExporter ();
 		pngExporter.export (chartOptions1, null, new File (exportDirectory, "column-basic.png"));
 		
-		// ====================================================================
-		// Another example using the same exporter
-		// ---------------------------------------
+//		// ====================================================================
+//		// Another example using the same exporter
+//		// ---------------------------------------
 		ChartOptions chartOptions2 = highchartsSamples.createPieChart ();
 		pngExporter.export (chartOptions2, null, new File (exportDirectory, "pie-chart.png"));
-		
-		// ====================================================================
-		// An example exporting to JPEG
-		// ---------------------------------------
+//		
+//		// ====================================================================
+//		// An example exporting to JPEG
+//		// ---------------------------------------
 		ChartOptions chartOptions3 = highchartsSamples.createTimeDataWithIrregularIntervals ();
 		final HighchartsExporter<ChartOptions> jpegExporter = ExportType.jpeg.createExporter ();
 		jpegExporter.export (chartOptions3, null, new File (exportDirectory, "time-data-with-irregular-intervals.jpeg"));
@@ -56,6 +55,16 @@ public class SimpleExport {
 		String chartOption = highchartsSamples.createJsonColumnBasic ();
 		HighchartsExporter<String> pngFromJsonExporter = ExportType.png.createJsonExporter ();
 		pngFromJsonExporter.export (chartOption, null, new File (exportDirectory, "column-basic-from-json.png"));
+		
+		// ====================================================================
+		// json export
+		// ----------------
+		// Inputs :
+		//    1. chartOptions : chartOptions1
+		Jsonify jsonify = (Jsonify) highchartsSamples.createColumnBasic ();
+		String json = jsonify.toJson ();
+		System.out.println("json "+json);
+		pngFromJsonExporter.export (json, null, new File (exportDirectory, "column-basic-from-jsonified-java.png"));
 	}
 
 

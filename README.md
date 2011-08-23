@@ -68,10 +68,16 @@ You can choose the export directory by changing the java line :
   * ...
   
 * SimpleExample shows several cases of charts export :
-  * 'java' chartOptions from column-basic to png,
-  * 'java' chartOptions from pie-chart to png,
-  * 'java' chartOptions from time-data-with-irregular-intervals to jpeg,
-  * 'json' chartOptions from column-basic to png.
+  * from 'java' chartOptions (column-basic) to png file,
+  * from 'java' chartOptions (pie-chart) to png file,
+  * from 'java' chartOptions (time-data-with-irregular-intervals) to jpeg file,
+  * from 'json' chartOptions (column-basic) to png file,
+  * from 'java' chartOptions (column-basic) to json chartOptions (as a String).
+  
+* Please note that following trace do not mean a mistake :
+log4j:WARN No appenders could be found for logger (org.one2team.highcharts.server.export.util.SVGHighchartsHelper).
+log4j:WARN Please initialize the log4j system properly.
+ERROR: The JPEG quality has not been specified. Use the default one: no compression 
   
 SamplesFactory contains three methods that generate equivalent of Highcharts demo gallery examples :
 * SamplesFactory.createColumnBasic : [Basic column](http://highcharts.com/demo/column-basic)
