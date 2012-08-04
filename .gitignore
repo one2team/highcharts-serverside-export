@@ -1,1 +1,15 @@
-/.settings
+.DS_Store
+*.log
+target/
+*.pyc
+*.pyo
+*.iml
+*.ipr
+*.iws
+*.ids
+.cloverdb
+target
+.idea/
+*.swp
+out
+*.war
