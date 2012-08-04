@@ -189,8 +189,8 @@ public class JSMBaseObject implements Scriptable, Jsonify {
 		return BeansDescriptor.singleton ().getProperties (getClass());
 	}
 
-	@Override
-	public Object getDefaultValue (Class<?> hint) {
+    @Override
+    public Object getDefaultValue(Class aClass) {
 		// TODO Auto-generated method stub
 		return null;
 	}

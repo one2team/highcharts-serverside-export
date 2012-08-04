@@ -166,7 +166,7 @@ public class JSMArray<E> extends ArrayList<E> implements Array<E>, Scriptable {
 	}
 
 	@Override
-	public Object getDefaultValue (Class<?> hint) {
+	public Object getDefaultValue (Class hint) {
 		return null;
 	}
 

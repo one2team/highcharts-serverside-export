@@ -1,5 +1,3 @@
-package examples;
-
 import java.io.File;
 
 import org.one2team.highcharts.server.export.ExportType;
