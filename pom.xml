@@ -32,6 +32,24 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-awt-util</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -151,6 +169,24 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-gui-util</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -175,11 +211,47 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-parser</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-rasterizer</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -225,6 +297,10 @@
             <version>${batik-version}</version>
             <exclusions>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -257,6 +333,24 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-svgpp</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -285,11 +379,47 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-util</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-xml</artifactId>
             <version>${batik-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
