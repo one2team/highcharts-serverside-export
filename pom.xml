@@ -19,6 +19,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -36,6 +40,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -61,6 +69,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -78,6 +90,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -99,6 +115,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -116,6 +136,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -137,6 +161,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -156,6 +184,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -173,6 +205,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -198,6 +234,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -215,6 +255,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -240,6 +284,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -263,6 +311,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -280,6 +332,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -301,6 +357,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -320,6 +380,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -337,6 +401,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -362,6 +430,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -383,6 +455,10 @@
                 <exclusion>
                     <groupId>xalan</groupId>
                     <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -408,6 +484,10 @@
                     <artifactId>xalan</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
@@ -425,6 +505,28 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>1.4</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>xalan</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xalan</groupId>
+                    <artifactId>serializer</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis-ext</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
