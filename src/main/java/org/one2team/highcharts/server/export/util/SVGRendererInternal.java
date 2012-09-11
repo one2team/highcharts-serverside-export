@@ -78,8 +78,9 @@ public abstract class SVGRendererInternal<T> {
 
 					void createScriptable () {
 
-						SVGHighchartsHelper.LOGGER.trace ("set langage version to 1.6");
-		        cx.setLanguageVersion (Context.VERSION_1_6);
+	//					SVGHighchartsHelper.LOGGER.trace ("set language version to 1.6");
+//		        cx.setLanguageVersion (Context.VERSION_1_8);
+                        cx.setLanguageVersion(Context.VERSION_1_8);
 		        
 		        SVGHighchartsHelper.LOGGER.trace ("init standard objects");
 		        if (SVGHighchartsHelper.DEBUG)
@@ -122,7 +123,7 @@ public abstract class SVGRendererInternal<T> {
 				      in = SVGHighchartsHelper.class.getResourceAsStream (jsFileName);
 				      if (in == null)
 				        throw new RuntimeException ("cannot find js file : " + jsFileName);
-				      
+
 				      reader = new InputStreamReader (in);
 				      if (scripts == null)
 								scripts = new ArrayList<Script> (); 
@@ -179,6 +180,7 @@ public abstract class SVGRendererInternal<T> {
 	      svg = svg.substring (svg.indexOf ("<svg"), svg.indexOf ("</div>"));
 	    } else 
 	      svg = svg.replace ("clippath", "clipPath");
+          svg = svg.replace("\"NaN\"", "\"0\"");
 	    
 	    if (SVGHighchartsHelper.LOGGER.isTraceEnabled ()) SVGHighchartsHelper.LOGGER.trace ("svg rendered : \n" + svg);
 	    return svg;

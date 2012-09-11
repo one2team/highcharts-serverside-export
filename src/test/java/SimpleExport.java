@@ -10,7 +10,7 @@ public class SimpleExport {
 	public static void main (String[] args) {
 		
 		// This executable expects an export directory as input
-		File exportDirectory = new File (args [0]);
+		File exportDirectory = new File ("/Users/greg/Documents/development/git/highcharts-serverside-export");
 		
 		final SamplesFactory highchartsSamples = SamplesFactory.getSingleton ();
 		
