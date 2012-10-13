@@ -43,8 +43,8 @@ public class SamplesFactory {
 				.getDataLabels ()
 				.setEnabled (true)
 				.setColor ("#000000")
-				.setFormatter (
-						"function() {return '<b>'+ this.point.name +'</b>: '+ this.y +' %';}");
+/*				.setFormatter (
+						"function() {return '<b>'+ this.point.name +'</b>: '+ this.y +' %';}")*/;
 
 		Series newSeries = factory.createSeries ().setName ("Winter 2007-2008");
 		chartOptions.getSeries ().pushElement (newSeries);
@@ -202,8 +202,8 @@ public class SamplesFactory {
 				.getDataLabels ()
 				.setEnabled (true)
 				.setColor ("#000000")
-				.setFormatter (
-						"function() {return '<b>'+ this.point.name +'</b>: '+ this.y +' %';}");
+/*				.setFormatter (
+						"function() {return '<b>'+ this.point.name +'</b>: '+ this.y +' %';}")*/;
 
 		Series newSeries = factory.createSeries ().setName ("Browser share")
 				.setType ("pie");

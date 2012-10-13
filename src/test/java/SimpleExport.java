@@ -50,7 +50,7 @@ public class SimpleExport {
 		// Inputs :
 		//    1. chartOptions : the json ChartOptions to be exported,
 		//    2. exportFile  : file to export to.
-		String chartOption = highchartsSamples.createJsonColumnBasic ();
+/*		String chartOption = highchartsSamples.createJsonColumnBasic ();
 		HighchartsExporter<String> pngFromJsonExporter = ExportType.png.createJsonExporter ();
 		pngFromJsonExporter.export (chartOption, null, new File (exportDirectory, "column-basic-from-json.png"));
 		
@@ -63,7 +63,7 @@ public class SimpleExport {
 		String json = jsonify.toJson ();
 		System.out.println("json "+json);
 		pngFromJsonExporter.export (json, null, new File (exportDirectory, "column-basic-from-jsonified-java.png"));
-	}
+*/	}
 
 
 }

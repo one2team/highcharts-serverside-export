@@ -17,7 +17,7 @@ public class SVGHighchartsHelper {
   
   static final boolean DEBUG = false;
 
-  static final boolean HIGHCHARTS_2_1_2 = true;
+  static final boolean HIGHCHARTS_2_1_2 = false;
 
   static Main rhinoDebugger;
 

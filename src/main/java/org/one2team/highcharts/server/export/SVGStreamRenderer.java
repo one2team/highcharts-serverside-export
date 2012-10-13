@@ -1,6 +1,7 @@
 package org.one2team.highcharts.server.export;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.Reader;
 import java.io.StringReader;
 
@@ -26,8 +27,16 @@ class SVGStreamRenderer<T> extends PojoRenderer<T> {
 
 			if (getOutputStream () == null)
 				throw (new RuntimeException ("outputstream cannot be null"));
-			
-			transcoder.transcode (new TranscoderInput (reader), new TranscoderOutput (getOutputStream ()));
+
+            if (transcoder != null) {
+			    transcoder.transcode (new TranscoderInput (reader), new TranscoderOutput (getOutputStream ()));
+            } else {
+                try {
+                getOutputStream().write(baos.toByteArray());
+                } catch (IOException e) {
+
+                }
+            }
 
 		} catch (TranscoderException e) {
 			throw new RuntimeException (e);

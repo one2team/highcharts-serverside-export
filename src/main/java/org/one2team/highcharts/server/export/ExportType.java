@@ -24,7 +24,12 @@ public enum ExportType {
 		protected Transcoder getTranscoder () {
 			return new TIFFTranscoder ();
 		}
-	};
+	}, svg {
+        @Override
+        protected Transcoder getTranscoder () {
+            return null;
+        }
+    };
 	
 	public HighchartsExporter<ChartOptions> createExporter () {
 		return new HighchartsExporter<ChartOptions> (this, new SVGRendererInternalChartOption ());

@@ -1,15 +1,26 @@
-function renderSVG (jsonOptions, jsonGeneralOptions) {
-	n = Highcharts.createElement('div', null, null, null, true);
+function renderSVGFromObject (jsonGeneralOptions, chartOptions) {
+//    n = Highcharts.createElement('div', null, null, null, true);
+    var n = document.createElement('div');
+    document.body.appendChild(n);
 
-	Highcharts.setOptions (eval (jsonGeneralOptions));
-	
-	chartOptions = eval (jsonOptions);
-	chartOptions.chart.renderTo=n;
-	chartOptions.chart.forExport=true;
+    var toto = eval (jsonGeneralOptions);
+    Highcharts.setOptions.call (Highcharts, toto);
+    var newChartOptions = chartOptions;
 
-	chart = new Highcharts.Chart(chartOptions);
-	svg = chart.getSVG ();
-	chart.destroy ();
-	Highcharts.discardElement (n);
-	return svg;
+ //   new FormatWrapper ().visitObject(newChartOptions);
+    var chartOptionsChart = newChartOptions.chart;
+    chartOptionsChart.renderTo=n;
+    chartOptionsChart.renderer='SVG';
+
+    var additionalOptions = {};
+    additionalOptions['container'] = n;
+
+    chart = new Highcharts.Chart(newChartOptions);
+
+    java.lang.System.out.println("HELLO WORLD -----------------------------");
+
+    svg = chart.getSVG ();
+    chart.destroy ();
+    Highcharts.discardElement (n);
+    return svg;
 }

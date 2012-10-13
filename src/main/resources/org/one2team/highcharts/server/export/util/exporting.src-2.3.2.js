@@ -181,7 +181,8 @@ extend(Chart.prototype, {
 	 * @param additionalOptions {Object} Additional chart options for the generated SVG representation
 	 */
 	getSVG: function (additionalOptions) {
-		var chart = this,
+        java.lang.System.out.println("highcharts: Chart.getSVG - start");
+        var chart = this,
 			chartCopy,
 			sandbox,
 			svg,
@@ -301,7 +302,8 @@ extend(Chart.prototype, {
 		    }
         }
 
-		return svg;
+        java.lang.System.out.println("highcharts: Chart.getSVG - end");
+        return svg;
 	},
 
 	/**
@@ -310,7 +312,8 @@ extend(Chart.prototype, {
 	 * @param {Object} chartOptions Additional chart options for the SVG representation of the chart
 	 */
 	exportChart: function (options, chartOptions) {
-		var form,
+        java.lang.System.out.println("highcharts: Chart.exportChart - start");
+        var form,
 			chart = this,
 			svg = chart.getSVG(merge(chart.options.exporting.chartOptions, chartOptions)); // docs
 
@@ -345,7 +348,8 @@ extend(Chart.prototype, {
 
 		// clean up
 		discardElement(form);
-	},
+        java.lang.System.out.println("highcharts: Chart.exportChart - end");
+    },
 
 	/**
 	 * Print the chart

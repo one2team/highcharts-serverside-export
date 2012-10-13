@@ -7548,10 +7548,10 @@ __extend__(HTMLElement.prototype, {
         return this.setAttribute("lang",val);
     },
     get offsetHeight(){
-        return Number((this.style.height || '').replace("px",""));
+        return Number((this.style.height + '').replace("px",""));
     },
     get offsetWidth(){
-        return Number((this.style.width || '').replace("px",""));
+        return Number((this.style.width + '').replace("px",""));
     },
     offsetLeft: 0,
     offsetRight: 0,

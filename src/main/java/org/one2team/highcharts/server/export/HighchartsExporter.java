@@ -33,6 +33,21 @@ public class HighchartsExporter<T> {
 				IOUtils.closeQuietly (fos);
 		}
 	}
+	public void export (T chartOptions,
+			                T globalOptions,
+			                OutputStream stream) {
+
+		try {
+			render (chartOptions, globalOptions, stream);
+
+		} catch (Exception e) {
+			e.printStackTrace ();
+			throw (new RuntimeException (e));
+		} finally {
+			if (stream != null)
+				IOUtils.closeQuietly (stream);
+		}
+	}
 
 	private OutputStream render (T chartOptions,
 			                         T globalOptions,
@@ -43,6 +58,16 @@ public class HighchartsExporter<T> {
 				    .setOutputStream (fos = new FileOutputStream (file))
 				    .render ();
 		return fos;
+	}
+
+	private OutputStream render (T chartOptions,
+			                         T globalOptions,
+                               OutputStream stream) throws FileNotFoundException {
+		renderer.setChartOptions (chartOptions)
+				    .setGlobalOptions (globalOptions)
+				    .setOutputStream (stream)
+				    .render ();
+		return stream;
 	}
 
 	public SVGStreamRenderer<T> getRenderer () {
