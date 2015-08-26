@@ -40,6 +40,7 @@ public class JSMTitle extends JSMBaseObject implements Title {
 
   @Override
   public Title hide() {
+    getStyle().setProperty("display", "none");
     return setText("");
   }
 
