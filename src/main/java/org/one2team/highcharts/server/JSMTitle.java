@@ -37,8 +37,13 @@ public class JSMTitle extends JSMBaseObject implements Title {
     this.text = text;
     return this;
   }
-  
+
   @Override
+  public Title hide() {
+    return setText("");
+  }
+
+    @Override
   public Style getStyle () {
   	if (style == null)
   		style = new JSMStyle ();
