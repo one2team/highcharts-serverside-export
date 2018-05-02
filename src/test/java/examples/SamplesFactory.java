@@ -1,16 +1,16 @@
-package test.java.examples;
+package examples;
 
 import java.util.Calendar;
 
-import main.java.one2team.highcharts.server.JSMHighchartsFactory;
-import main.java.one2team.highcharts.shared.ChartOptions;
-import main.java.one2team.highcharts.shared.HighchartsFactory;
-import main.java.one2team.highcharts.shared.Point;
-import main.java.one2team.highcharts.shared.Series;
-import main.java.one2team.highcharts.shared.SeriesType;
-import main.java.one2team.highcharts.shared.DateTimeLabelFormats.TimeUnit;
+import org.one2team.highcharts.server.JSMHighchartsFactory;
+import org.one2team.highcharts.shared.ChartOptions;
+import org.one2team.highcharts.shared.HighchartsFactory;
+import org.one2team.highcharts.shared.Point;
+import org.one2team.highcharts.shared.Series;
+import org.one2team.highcharts.shared.SeriesType;
+import org.one2team.highcharts.shared.DateTimeLabelFormats.TimeUnit;
 
-import main.java.shared.Array;
+import com.google.gwt.shared.Array;
 
 public class SamplesFactory {
 

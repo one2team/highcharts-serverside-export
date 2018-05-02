@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="316a558c-de7a-4efa-b763-216020f5659e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/Array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/ArrayString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/class-use/Array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/class-use/ArrayString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/google/gwt/shared/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/MultiExport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/SamplesFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/SimpleExport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/class-use/MultiExport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/class-use/SamplesFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/class-use/SimpleExport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/examples/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/BeansDescriptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMAxis.JSMLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMAxis.JSMPlotLines.JSMLabel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMAxis.JSMPlotLines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMAxis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMBaseObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMCenterSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMChart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMChartOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMCredits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMDateTimeLabelFormats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMDateTimeLabelFormatsSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMHighchartsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMLabels.JSMItems.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMLegend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMDataLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.JSMHover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.JSMSelect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMMarker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMStates.JSMSelect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.JSMStates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPlotOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMSeries.JSMCenter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMStyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMStyleSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/JSMTooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/BeansDescriptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMAxis.JSMLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMAxis.JSMPlotLines.JSMLabel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMAxis.JSMPlotLines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMAxis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMBaseObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMCenterSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMChart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMChartOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMCredits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMDateTimeLabelFormats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMDateTimeLabelFormatsSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMHighchartsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMLabels.JSMItems.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMLegend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMDataLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.JSMHover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.JSMSelect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMMarker.JSMStates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMMarker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMStates.JSMSelect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.JSMStates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPlotOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMSeries.JSMCenter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMStyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMStyleSerializer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/class-use/JSMTooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/JSMChart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/JSMElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/JSMPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/class-use/JSMChart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/class-use/JSMElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/class-use/JSMPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/class-use/JSMSeries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/dynamic/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/ExportType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/HighchartsExporter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/Renderer.PojoRenderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/Renderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/RendererFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/class-use/ExportType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/class-use/HighchartsExporter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/class-use/Renderer.PojoRenderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/class-use/Renderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/class-use/RendererFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/SVGHighchartsHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/SVGRendererInternal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/class-use/SVGHighchartsHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/class-use/SVGRendererInternal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/export/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/server/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Axis.Labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Axis.PlotLines.Label.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Axis.PlotLines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Axis.Type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Axis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/ChartOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/DateTimeLabelFormats.TimeUnit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/DateTimeLabelFormats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/HighchartsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Labels.Items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Legend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.DataLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.Marker.States.Hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.Marker.States.Select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.Marker.States.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.Marker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.States.Select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.States.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/PlotOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Point.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/SeriesType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/SeriesTypeVisitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/Tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Axis.Labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Axis.PlotLines.Label.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Axis.PlotLines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Axis.Type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Axis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/ChartOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/DateTimeLabelFormats.TimeUnit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/DateTimeLabelFormats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/HighchartsFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Labels.Items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Legend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.DataLabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.Marker.States.Hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.Marker.States.Select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.Marker.States.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.Marker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.States.Select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.States.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/PlotOptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Point.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/SeriesType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/SeriesTypeVisitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/class-use/Tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/Chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/Element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/Point.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/class-use/Chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/class-use/Element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/class-use/Point.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/class-use/Series.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/dynamic/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/highcharts/shared/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/JSMArray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/JSMArrayString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/class-use/JSMArray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/class-use/JSMArrayString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/org/one2team/utils/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/highcharts-serverside-export.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-anim.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-awt-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-bridge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-codec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-css.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-dom.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-ext.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-extension.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-gui-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-gvt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-parser.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-rasterizer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-script.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-squiggle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-svg-dom.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-svggen.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-svgpp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-transcoder.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik-xml.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/batik.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-io-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rhino-1.7R2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/slf4j-api-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/slf4j-log4j12-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml-apis-ext.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/MultiExport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/SamplesFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/SimpleExport.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../InEms1.0.0" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/0420_backup/InEms1.0.0" value="PREVIEW" />
+        <entry key="$USER_HOME$/eclipse-workspace/InEcCommon" value="PREVIEW" />
+        <entry key="$USER_HOME$/eclipse-workspace/InEcMessages" value="PREVIEW" />
+        <entry key="$USER_HOME$/eclipse-workspace/InEms1.0.0" value="PREVIEW" />
+        <entry key="$USER_HOME$/eclipse-workspace/common" value="PREVIEW" />
+        <entry key="$USER_HOME$/eclipse-workspace/ttri-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
+    <option name="y" value="-63" />
+    <option name="width" value="1133" />
+    <option name="height" value="931" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="highcharts-serverside-export" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="highcharts-serverside-export" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Groovy.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="316a558c-de7a-4efa-b763-216020f5659e" name="Default" comment="" />
+      <created>1525262661816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525262661816</updated>
+      <workItem from="1525262665876" duration="18000" />
+      <workItem from="1525262697765" duration="171000" />
+      <workItem from="1525262880804" duration="456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="645000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-309" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.73638344" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>highcharts-serverside-export</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29236868" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

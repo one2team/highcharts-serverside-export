@@ -1,10 +1,10 @@
-package test.java.examples;
+package examples;
 
 import java.io.File;
 
-import main.java.one2team.highcharts.server.export.ExportType;
-import main.java.one2team.highcharts.server.export.HighchartsExporter;
-import main.java.one2team.highcharts.shared.ChartOptions;
+import org.one2team.highcharts.server.export.ExportType;
+import org.one2team.highcharts.server.export.HighchartsExporter;
+import org.one2team.highcharts.shared.ChartOptions;
 
 public class MultiExport {
 
