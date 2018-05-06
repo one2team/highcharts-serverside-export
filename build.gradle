@@ -1,0 +1,163 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'org.one2team'
+version = '1.0.0'
+
+description = """highcharts-serverside-export"""
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+def batikVer = '1.9.1'
+
+repositories {
+
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-anim', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-awt-util', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-bridge', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-codec', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-css', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-dom', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-ext', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-extension', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-gui-util', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-gvt', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-parser', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-rasterizer', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-script', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-squiggle', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-svg-dom', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-svggen', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-svgpp', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-transcoder', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+        exclude(module: 'avalon-framework-api')
+        exclude(module: 'avalon-framework-impl')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-util', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'org.apache.xmlgraphics', name: 'batik-xml', version: "${batikVer}") {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+        exclude(module: 'batik-js')
+    }
+    compile(group: 'com.google.code.gson', name: 'gson', version: '1.4') {
+        exclude(module: 'xalan')
+        exclude(module: 'serializer')
+        exclude(module: 'xml-apis')
+        exclude(module: 'commons-logging')
+    }
+//    compile group: 'rhino', name: 'js', version: '1.7R2'
+    compile group: 'org.mozilla', name: 'rhino', version: '1.7.10'
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
+}
